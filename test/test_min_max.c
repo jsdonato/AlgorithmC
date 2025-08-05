@@ -20,7 +20,6 @@ int test_min_max() {
 
   ASSERT_TRUE(double_min(double_arr[0], double_arr[1]) == double_arr[1]);
   ASSERT_TRUE(double_max(double_arr[0], double_arr[1]) == double_arr[0]);
-  
 
   printf("=== END TEXT MIN MAX ===\n");
   return EXIT_SUCCESS;
